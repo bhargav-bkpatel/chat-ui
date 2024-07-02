@@ -24,7 +24,7 @@ const Header = () => {
 
   return (
     <div>
-      <div className="py-[21px] px-[13px] border-b-[#E5E5EA] border-b border-solid bg-white">
+      <div className="py-5 px-3 border-b-[#E5E5EA] border-b border-solid bg-white">
         <div className="flex justify-between items-center">
           <div className="flex -space-x-2 overflow-hidden">
             {imageList?.map((image, index) => (
@@ -39,7 +39,7 @@ const Header = () => {
             ))}
           </div>
           <div className="flex-col justify-center items-center gap-1 inline-flex">
-            <div className="text-zinc-800 text-sm font-semibold leading-[18px]">
+            <div className="text-zinc-800 text-sm font-semibold leading-4">
               🦄 Team Unicorns
             </div>
             <div className="text-neutral-500 text-xs font-normal">
