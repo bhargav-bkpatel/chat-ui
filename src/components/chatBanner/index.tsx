@@ -17,7 +17,16 @@ const CheatBanner = () => {
                             <span className='text-xs text-white'>11:31 AM</span> <DoubelTreuIcon />
                             </div>
                     
-                </div>
+           </div>
+           <div className='bg-[#007AFF] rounded-[6px] px-[8px] py-[4px] flex  relative mt-[6px]'>
+            <Image src={"/images/chateIcon.svg"} alt='img' width={15} height={39} className='absolute top-0 right-[-9px] hidden'/>
+                 
+                        <span className='text-sm text-white '>Anyone on for lunch today</span>
+                        <div className='flex items-center justify-end gap-[4px] mt-[21px]'>
+                            <span className='text-xs text-white'>11:31 AM</span> <DoubelTreuIcon />
+                            </div>
+                    
+           </div>
            </div>
             </div>
         </div>
