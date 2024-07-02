@@ -13,7 +13,7 @@ const CheatBanner = () => {
         <div className="flex flex-col items-end pr-4">
           <div className="bg-[#007AFF] rounded-md px-2 py-1 flex  relative">
             <Image
-              src={"/images/chateIcon.svg"}
+              src={"/assets/images/chateIcon.svg"}
               alt="img"
               width={15}
               height={39}
@@ -28,7 +28,7 @@ const CheatBanner = () => {
           </div>
           <div className="bg-[#007AFF] rounded-md px-2 py-1 flex  relative mt-2">
             <Image
-              src={"/images/chateIcon.svg"}
+              src={"/assets/images/chateIcon.svg"}
               alt="img"
               width={15}
               height={39}
