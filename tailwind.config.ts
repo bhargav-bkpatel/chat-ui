@@ -15,6 +15,11 @@ const config: Config = {
       },
       fontFamily:{
         Eloquia : [ "Eloquia Display ExtBd"]
+      },
+      colors:{
+        brand:{
+          darkGray:"#666668"
+        }
       }
 
     },
