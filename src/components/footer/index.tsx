@@ -19,7 +19,7 @@ const Footer = () => {
                     </div>
                     <div className='flex gap-3 items-center max-w-[50px] w-full justify-between'>
                         <div className='cursor-pointer'><MentionIcon /></div>
-                        <div className='cursor-pointer'><AirplaneIcon /></div>
+                        <div className='cursor-pointer hover:[&>div>svg>g>path]:fill-[#007AFF]'><AirplaneIcon /></div>
                     </div>
                 </div>
             </div>
