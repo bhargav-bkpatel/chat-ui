@@ -24,7 +24,7 @@ const Header = () => {
 
   return (
     <div>
-      <div className="max-w-[656px] w-full m-auto max-h-[960px] h-full overflow-auto py-[21px] px-[13px] ">
+      <div className="max-w-[656px] w-full m-auto max-h-[960px] h-full overflow-auto py-[21px] px-[13px] border-b-[#E5E5EA] border-b border-solid bg-white shadow-inner">
         <div className="flex justify-between items-center">
           <div className="flex -space-x-2 overflow-hidden">
             {imageList?.map((image, index) => (
