@@ -27,7 +27,7 @@ const Header = () => {
       <div className="max-w-[656px] w-full m-auto max-h-[960px] h-full overflow-auto py-[21px] px-[13px] ">
         <div className="flex justify-between items-center">
           <div className="flex -space-x-2 overflow-hidden">
-            {imageList.map((image, index) => (
+            {imageList?.map((image, index) => (
               <Image
                 key={index}
                 className="inline-block h-6 w-6 rounded-full ring-2 ring-white"
