@@ -17,7 +17,7 @@ export default function Home() {
         <meta name="author" content="Chat UI" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="max-w-[90%] sm:max-w-[656px] w-full m-auto max-h-[960px] h-full overflow-auto my-5">
+      <div className="max-w-[90%] sm:max-w-[656px] w-full mx-auto max-h-[960px] h-full overflow-hidden my-5">
         <Header />
         <CheatBanner />
         <Footer />
