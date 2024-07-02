@@ -5,26 +5,26 @@ import DotsIcon from "../commons/icons/dotsIcon";
 const Header = () => {
   const imageList = [
     {
-      src: "/images/avatar-1.png",
+      src: "/assets/images/avatar-1.png",
       alt: "Avatar 1",
     },
     {
-      src: "/images/avatar-2.png",
+      src: "/assets/images/avatar-2.png",
       alt: "Avatar 2",
     },
     {
-      src: "/images/avatar-3.png",
+      src: "/assets/images/avatar-3.png",
       alt: "Avatar 3",
     },
     {
-      src: "/images/avatar-4.png",
+      src: "/assets/images/avatar-4.png",
       alt: "Avatar 4",
     },
   ];
 
   return (
     <div>
-      <div className="py-[21px] px-[13px] border-b-[#E5E5EA] border-b border-solid bg-white">
+      <div className="py-5 px-3 border-b-[#E5E5EA] border-b border-solid bg-white">
         <div className="flex justify-between items-center">
           <div className="flex -space-x-2 overflow-hidden">
             {imageList?.map((image, index) => (
@@ -39,7 +39,7 @@ const Header = () => {
             ))}
           </div>
           <div className="flex-col justify-center items-center gap-1 inline-flex">
-            <div className="text-zinc-800 text-sm font-semibold leading-[18px]">
+            <div className="text-zinc-800 text-sm font-semibold leading-4">
               🦄 Team Unicorns
             </div>
             <div className="text-neutral-500 text-xs font-normal">
