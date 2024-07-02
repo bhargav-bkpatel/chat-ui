@@ -1,6 +1,7 @@
 import React from 'react'
 import DoubelTreuIcon from '../commons/icons/doubelTreuIcon'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const CheatBanner = () => {
     return (
@@ -87,7 +88,7 @@ const CheatBanner = () => {
                                     <span className='text-xs text-brand-darkGray'>Product</span>
                                 </div>
                                 <div className='flex items-center gap-[4px]'>
-                                    <span className='text-sm text-[#2C2C2E] '>But limited vegan options <a href="/" className='text-[#007AFF]'> @Janet</a>!</span>
+                                    <span className='text-sm text-[#2C2C2E] '>But limited vegan options <Link href="#" className='text-[#007AFF]'> @Janet</Link>!</span>
                                     <div className='flex items-center justify-end gap-[4px] mt-[21px]'>
                                         <span className='text-xs text-brand-darkGray'>11:46 AM</span>
                                     </div>
