@@ -1,3 +1,6 @@
+@import url(https://db.onlinewebfonts.com/c/321e53022d0a33d76e1b4791d82b7314?family=Eloquia+Display+ExtBd);
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -17,17 +20,7 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: "Eloquia Display ExtBd";
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
+
