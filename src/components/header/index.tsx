@@ -5,19 +5,19 @@ import DotsIcon from "../commons/icons/dotsIcon";
 const Header = () => {
   const imageList = [
     {
-      src: "/images/avatar-1.png",
+      src: "/assets/images/avatar-1.png",
       alt: "Avatar 1",
     },
     {
-      src: "/images/avatar-2.png",
+      src: "/assets/images/avatar-2.png",
       alt: "Avatar 2",
     },
     {
-      src: "/images/avatar-3.png",
+      src: "/assets/images/avatar-3.png",
       alt: "Avatar 3",
     },
     {
-      src: "/images/avatar-4.png",
+      src: "/assets/images/avatar-4.png",
       alt: "Avatar 4",
     },
   ];
